@@ -9,10 +9,12 @@ public abstract class Bread implements Food {
         this.calories = calories;
     }
 
+    @Override
     public float getPrice() {
         return price;
     }
 
+    @Override
     public int getCalories() {
         return calories;
     }
